@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — TradingBell</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --accent: #C8993A;
+      --bg: #F9F8F6;
+      --card: #FFFFFF;
+      --text: #1A1A1A;
+      --muted: #666666;
+      --border: #E5E3DF;
+      --radius: 12px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111110;
+        --card: #1C1C1B;
+        --text: #F0EDE8;
+        --muted: #999896;
+        --border: #2E2C2A;
+      }
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0 16px 80px;
+    }
+
+    .wrapper {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 48px 0 32px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      margin-bottom: 24px;
+    }
+
+    .logo-icon {
+      width: 36px; height: 36px;
+      background: var(--accent);
+      border-radius: 9px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+
+    .logo-name {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: clamp(26px, 5vw, 36px);
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 20px;
+    }
+
+    .card-highlight {
+      background: linear-gradient(135deg, #C8993A18, #C8993A08);
+      border-color: #C8993A40;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h2 .icon {
+      font-size: 20px;
+    }
+
+    p { margin-bottom: 12px; color: var(--text); }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .tag {
+      display: inline-block;
+      background: #34C75920;
+      color: #1A7A40;
+      border: 1px solid #34C75940;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px 10px;
+      margin-bottom: 14px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .tag { background: #34C75918; color: #4ADE80; border-color: #34C75930; }
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .card { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+    <header>
+      <a class="logo" href="https://bigcycles.app">
+        <div class="logo-icon">🔔</div>
+        <span class="logo-name">TradingBell</span>
+      </a>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: March 29, 2025 &nbsp;·&nbsp; Effective immediately</p>
+    </header>
+
+    <!-- Summary card -->
+    <div class="card card-highlight">
+      <div class="tag">Short version</div>
+      <h2><span class="icon">👁️</span> What we collect — almost nothing</h2>
+      <p>TradingBell does not require you to create an account. We do not collect your name, email address, or any personal identifiers. The app works entirely on your device.</p>
+      <p>Payments are processed securely by Apple. We never see your payment card details.</p>
+    </div>
+
+    <!-- Data collected -->
+    <div class="card">
+      <h2><span class="icon">📦</span> Information We Collect</h2>
+
+      <p><strong>1. No account, no profile.</strong> TradingBell has no sign-up or login flow. All your settings (theme, selected exchanges, alarms, favorites) are stored locally on your device using iOS standard storage (UserDefaults / Core Data). Nothing is sent to our servers.</p>
+
+      <p><strong>2. In-App Purchases.</strong> If you subscribe to TradingBell Premium, the transaction is handled entirely by Apple through the App Store. We receive only a non-personal receipt confirmation to verify your subscription status — no payment method details ever reach us.</p>
+
+      <p><strong>3. Notifications.</strong> TradingBell may ask permission to send you local push notifications for market open/close alarms you configure. These notifications are generated on your device and do not involve sending data to any server.</p>
+
+      <p><strong>4. Crash reports &amp; diagnostics.</strong> If you have opted in to sharing analytics with developers in your iPhone settings, Apple may share anonymised crash reports with us. This data does not include any personally identifiable information.</p>
+    </div>
+
+    <!-- Not collected -->
+    <div class="card">
+      <h2><span class="icon">🚫</span> What We Do NOT Collect</h2>
+      <ul>
+        <li>Name, email address, phone number, or any contact details</li>
+        <li>Location data (GPS or IP-based)</li>
+        <li>Financial data, trading accounts, or portfolio information</li>
+        <li>Browsing history or activity outside the app</li>
+        <li>Device contacts, photos, or camera access</li>
+        <li>Any behavioural analytics or advertising identifiers</li>
+      </ul>
+      <p>We do not use third-party advertising SDKs (e.g. Google Ads, Meta) and we do not sell or share data with third parties for marketing purposes.</p>
+    </div>
+
+    <!-- Third parties -->
+    <div class="card">
+      <h2><span class="icon">🤝</span> Third-Party Services</h2>
+      <p><strong>Apple Inc.</strong> — The App Store manages all payments, subscription management, and (optionally) crash reporting. Apple's own privacy policy governs how Apple handles this data: <a href="https://www.apple.com/privacy/" target="_blank">apple.com/privacy</a>.</p>
+      <p>We do not embed any other third-party SDKs that collect personal data.</p>
+    </div>
+
+    <!-- Data storage -->
+    <div class="card">
+      <h2><span class="icon">🗄️</span> Data Storage &amp; Security</h2>
+      <p>All app data (preferences, alarms, favourites) lives on your device and is included in your iCloud Backup if you have that enabled. You can delete all app data at any time by uninstalling TradingBell from your device.</p>
+      <p>We do not operate any servers that store personal user data.</p>
+    </div>
+
+    <!-- Children -->
+    <div class="card">
+      <h2><span class="icon">👶</span> Children's Privacy</h2>
+      <p>TradingBell is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information to us, please contact us and we will delete it promptly.</p>
+    </div>
+
+    <!-- Changes -->
+    <div class="card">
+      <h2><span class="icon">🔄</span> Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. Continued use of the app after changes are posted constitutes your acceptance of the revised policy.</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="card">
+      <h2><span class="icon">✉️</span> Contact</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us:</p>
+      <p><strong>Big Cycles</strong><br />
+      Website: <a href="https://bigcycles.app">bigcycles.app</a><br />
+      Email: <a href="mailto:support@bigcycles.app">support@bigcycles.app</a></p>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Big Cycles. All rights reserved.</p>
+      <p style="margin-top:8px">
+        <a href="https://bigcycles.app">Home</a> &nbsp;·&nbsp;
+        <a href="https://bigcycles.app/terms">Terms of Use</a>
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>

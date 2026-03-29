@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TradingBell — World Market Clock</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --accent: #C8993A;
+      --bg: #F9F8F6;
+      --text: #1A1A1A;
+      --muted: #666;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111110; --text: #F0EDE8; --muted: #999; }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg); color: var(--text);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      min-height: 100vh; text-align: center; padding: 24px;
+    }
+    .icon { font-size: 64px; margin-bottom: 16px; }
+    h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+    p { color: var(--muted); font-size: 16px; margin-bottom: 32px; }
+    .links { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+    a {
+      color: var(--accent); text-decoration: none;
+      font-size: 15px; font-weight: 500;
+      padding: 10px 20px; border: 1px solid var(--accent);
+      border-radius: 20px;
+    }
+    a:hover { background: var(--accent); color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="icon">🔔</div>
+  <h1>TradingBell</h1>
+  <p>World Market Clock for iOS</p>
+  <div class="links">
+    <a href="/privacy">Privacy Policy</a>
+    <a href="/terms">Terms of Use</a>
+  </div>
+</body>
+</html>
